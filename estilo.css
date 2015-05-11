@@ -1,0 +1,82 @@
+body {
+  font-family: 'Comic Sans';
+}
+body {
+	background: url(fondo.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.barsup {
+	text-align: left;
+	height: 60px;
+}
+
+.barsup li{
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 15px;
+	background: black;
+	padding: 5px;
+	border-radius: 5px;
+	margin-top:10px; 
+}
+
+.barsup li a{
+	color:white;
+	padding:5px;
+	text-decoration: none;
+}
+
+.barsup li:hover{
+	color: black;
+	background: gray;
+}
+
+.barsup li a:hover{
+	color: black;
+	background: gray;
+}
+
+.texto {
+	width: 750px;
+	margin: 50px auto;
+}
+
+.texto article header {
+	margin: 25px auto;
+	border: 5px dotted gray;
+	text-align: center;
+	height:50px;
+}
+
+.text p{
+	text-align: justify;
+}
+.proyecto {
+	width: 750px;
+	margin: 50px auto;
+}
+
+.proyecto article header {
+	margin: 25px auto;
+	border: 5px dotted gray;
+	text-align: center;
+	height:50px;
+}
+
+.proyecto p{
+	text-align: justify;
+}
+.nombres article header {
+	font-size: 20
+	text-align: left;
+	text-decoration: none;
+}
+img{
+	max-width: 500px;
+	max-height: 500px;
+	width: auto;
+	height: auto;
+}
