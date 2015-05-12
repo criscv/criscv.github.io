@@ -4,6 +4,7 @@
 	<meta charset="utf-8" />
 	<link href="estilo.css" rel="stylesheet" />
 	<title>Visualización</title>
+	<script type="text/javascript">swfobject.embedSWF("fl2.swf", "myContent", "300", "120", "9.0.0");</script>
 </head>
 
 <body>
@@ -19,14 +20,19 @@
 			</ul>
 		</nav>
 	</header>
-
-<input type="range" min="0" max="100" value="0" step="5" onchange="showValue(this.value)" />
-<span id="range">0</span>
-<script type="text/javascript">
-function showValue(newValue)
-{
-	document.getElementById("range").innerHTML=newValue;
-}
-</script>
+	<div>
+		<article><h1 align="center"> Índice de Pobreza </h1>
+		<img align="center" src="planisferio.jpg" alt="Pobreza de los países utilizados" title="Mapa de Pobreza" />
+		</article>
+		<article><h3>Instrucciones</h3>
+			<ul>
+				<li>Mueve el slider con las flechas derecha e izquierda de tu teclado</li>
+				<li>Presiona el botón comenzar</li>
+				<li>Repite el proceso para otro valor</li>
+			</ul>
+			<embed src="fl2.swf" quality="high" bgcolor="#E8E8E8" WIDTH="600" HEIGHT="400"><hr align='left' size='1' width='50%'> 
+			<footer>Cada mechón de cabello representa a las víctimas del cáncer</footer>
+		</article>
+	</div>
 </body>
 </html>
