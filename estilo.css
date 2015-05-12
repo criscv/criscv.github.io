@@ -43,7 +43,7 @@ h2 {
 }
 
 .texto {
-	width: 750px;
+    width: 60%;
 	margin: 50px auto;
 	text-align : justify;
 }
@@ -59,11 +59,24 @@ h2 {
 	text-align: justify;
 }
 .proyecto {
-	width: 750px;
+    width: 60%;
 	margin: 50px auto;
 }
+.visual {
+    width: 60%;
+	margin: 50px auto;
+}
+.visual article header {
+	margin: 25px auto;
+	border: 5px dotted gray;
+	text-align: center;
+	height:50px;
+}
+.visual p{
+	text-align: justify;
+}
 .contenedor{
-    width: 90%;
+    width: 60%;
     margin: 0 auto; 
 	text-align: center;
 }
@@ -83,8 +96,8 @@ h2 {
 }
 img{
 	display: block;
-	max-width: 500px;
-	max-height: 500px;
+	max-width: 600px;
+	max-height: 600px;
 	width: auto;
 	height: auto;
 	margin-left: auto;
