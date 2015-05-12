@@ -75,10 +75,26 @@ h2 {
 .visual p{
 	text-align: justify;
 }
+.intro {
+    width: 60%;
+	margin: 50px auto;
+}
+.intro article header {
+	margin: 25px auto;
+	border: 5px dotted gray;
+	text-align: center;
+	height:50px;
+}
+.intro p{
+	text-align: justify;
+}
 .contenedor{
     width: 60%;
     margin: 0 auto; 
 	text-align: center;
+}
+.contenedor p{
+	text-align: justify;
 }
 .proyecto article header {
 	margin: 25px auto;
@@ -89,10 +105,15 @@ h2 {
 .proyecto p{
 	text-align: justify;
 }
-.nombres article header {
-	font-size: 20
-	text-align: left;
-	text-decoration: none;
+.nombres {
+    width: 60%;
+	margin: 50px auto;
+}
+.nombres header{
+	text-align: center;
+}
+.nombres p{
+	text-align: justify;
 }
 img{
 	display: block;
